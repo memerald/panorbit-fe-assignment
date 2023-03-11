@@ -1,0 +1,27 @@
+html,
+body {
+	height: 100vh;
+}
+
+.home-background {
+	background-image: url("./assets//wave.svg");
+	background-repeat: no-repeat;
+	background-size: 150%;
+}
+
+.sidebar-bg {
+	background: linear-gradient(to bottom, #8360c3, #2ebf91);
+}
+
+.user-card-container {
+	box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
+}
+
+.user-card-container .user-card {
+	scrollbar-width: thin;
+	scrollbar-gutter: 10px;
+}
+
+.scroll-width {
+	scrollbar-width: thin;
+}
